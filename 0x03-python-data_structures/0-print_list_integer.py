@@ -5,12 +5,5 @@
 # By Viviane A Oywer
 
 def print_list_integer(my_list=[]):
-    """Prints all intergers of a list
-
-    Args:
-    my_list: the list argument whose items will be printed
-    """
-    
-    #Iterate through list
-    for integer in my_list:
-        print("{:d}"str.format(integer))
+    for i in range(len(my_list)):
+        print("{:d}".format(my_list[i]))
